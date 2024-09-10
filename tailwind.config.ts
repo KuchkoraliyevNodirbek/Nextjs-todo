@@ -11,6 +11,14 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary:"#133955",
+      },
+      container: {
+        center: true,
+        padding: "20px",
+        screens: {
+          lg: "1440px",
+        },
       },
     },
   },
